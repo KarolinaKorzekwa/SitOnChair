@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -76,6 +77,7 @@ a {
 }
 
 section .container {
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -178,6 +180,9 @@ section.container {
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
+    padding-left: 13px;
+    padding-top: 13px;
+    font-weight: bold;
 }
 
 h3:after {
@@ -213,6 +218,7 @@ div.opacityWhiteBackground:after {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 65px;
 }
 section.section3 .container {
      display: flex;
@@ -459,6 +465,7 @@ input::placeholder {
     color: #C3C3C3;
     font-size: 25px;
     font-family: Raleway;
+    padding-left: 15px;
 }
 textarea {
     width: 635px;
@@ -470,6 +477,8 @@ textarea::placeholder {
     color: #C3C3C3;
     font-size: 25px;
     font-family: Raleway;
+    padding-top: 17px;
+    padding-left: 15px;
 }
 /*checkbox*/
 .section4--Form-Chair input:last-child {
@@ -484,4 +493,39 @@ textarea::placeholder {
     font-family: Raleway;
     font-weight: 600;
 }
-footer
+ sup {
+     font-size: 12px;
+ }
+/*footer*/
+
+footer {
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+footer p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    /*margin-right: 20px;*/
+    color: #9C9C9C;
+    font-weight: 500;
+    justify-content: left;
+
+}
+.footer {
+    display: flex;
+    align-items: center;
+}
+.logo2 {
+    display: flex;
+    margin-left: 70px;
+}
+.logo2 p{
+    margin-left: 10px;
+}
+.logo2 p:nth-of-type(2){
+    font-weight: bold ;
+}
