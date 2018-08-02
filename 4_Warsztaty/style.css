@@ -181,8 +181,9 @@ section.container {
     display: flex;
     flex-direction: column;
     padding-left: 13px;
-    padding-top: 13px;
+    padding-top: 17px;
     font-weight: bold;
+    font-size: 13px;
 }
 
 h3:after {
@@ -212,6 +213,7 @@ div.opacityWhiteBackground:after {
     text-align: center;
     font-size: 17px;
     background-color: #F9F9F9;
+    position: relative;
 }
 
 .prices {
@@ -245,13 +247,18 @@ h2:after {
     text-align: center;
     font-size: 17px;
     background-color: #26BAA0;
+    position: relative;
 }
 #buttonMiddle {
     background-color: white;
     color: #26BAA0;
     width: 124px;
     height: 35px;
+    text-align: center;
+    position: relative;
+    top: 60px;
 }
+
 #buttonMiddle a {
     color:#26BAA0 ;
     font-size: 13px;
@@ -263,6 +270,9 @@ h2:after {
     height: 35px;
     font-size: 13px;
     font-family: Raleway;
+    position: absolute;
+    bottom: 13px;
+    left: 95px;
 }
 
 .plans {
@@ -287,18 +297,22 @@ h2:after {
     top: -70px;
 }
  .price {
-     height: 125px;
-     width: 125px;
+     margin-top: 35px;
+     margin-bottom: 35px;
+     height: 123px;
+     width: 123px;
      border: solid 2px #D5D4DA;
      background-color: white;
      border-radius: 50%;
-     display: flex;
-     flex-direction: column;
+     position: relative;
+     left: 100px;
  }
+
 div.price p:first-child {
     font-size: 35px;
     font-weight: 700;
     color: #CBCBCB;
+
 }
 div.price p:last-child {
     font-size: 12px;
@@ -381,13 +395,15 @@ div.priceStandard p:last-child {
 }
 
 .priceStandard {
-    height: 125px;
-    width: 125px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 123px;
+    width: 123px;
     border: solid 2px #26BAA0;
     background-color: white;
     border-radius: 50%;
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    left: 100px;
 }
 div.priceBox--Middle div:nth-of-type(3) {
     height: 45px;
@@ -419,7 +435,13 @@ div.priceBox--Middle div:nth-of-type(5) {
     align-items: center;
     font-size: 20px;
 }
+
+sup {
+     font-size: 12px;
+ }
+
 /*section4*/
+
 .section4 {
     margin-top: 0;
     height: 490px;
@@ -428,14 +450,18 @@ div.priceBox--Middle div:nth-of-type(5) {
 }
 
 .section4--Chair {
-    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5px;
 }
 #redChair {
     height: 185px;
     width: 230px;
     align-self: center;
+    position: relative;
+    top: -20px;
+
 }
 section.section4 .container{
     display: flex;
@@ -460,6 +486,7 @@ form input {
     border: 1px solid rgba(38, 186, 160, 0.5);
     align-items: center;
     margin-bottom: 25px;
+    font-size: 25px;
 }
 input::placeholder {
     color: #C3C3C3;
@@ -472,6 +499,7 @@ textarea {
     border: 1px solid rgba(38, 186, 160, 0.5);
     height: 190px;
     resize: none;
+    font-size: 25px;
 }
 textarea::placeholder {
     color: #C3C3C3;
@@ -480,7 +508,7 @@ textarea::placeholder {
     padding-top: 17px;
     padding-left: 15px;
 }
-/*checkbox*/
+
 .section4--Form-Chair input:last-child {
     height: 72px;
     width: 340px;
@@ -492,10 +520,30 @@ textarea::placeholder {
     font-size: 25px;
     font-family: Raleway;
     font-weight: 600;
+    margin-left: 65px;
 }
- sup {
-     font-size: 12px;
- }
+.checkbox{
+    margin-left: 65px;
+    font-size: 19px;
+    color: #C3C3C3;
+
+}
+
+/*checkbox*/
+input[type='checkbox'] {
+    display: none;
+}
+
+input[type='checkbox']+label {
+    width: 48px;
+    height: 48px;
+    background: url('images/form_ok.jpg') no-repeat;
+    padding: 0;
+    display: inline-block;
+    border: 1px solid rgba(38, 186, 160, 0.5);
+}
+
+
 /*footer*/
 
 footer {
@@ -528,4 +576,7 @@ footer p {
 }
 .logo2 p:nth-of-type(2){
     font-weight: bold ;
+}
+footer a {
+    margin-right: 8px;
 }
