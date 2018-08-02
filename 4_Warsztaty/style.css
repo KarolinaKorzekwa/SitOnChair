@@ -257,6 +257,7 @@ h2:after {
     text-align: center;
     position: relative;
     top: 60px;
+    /*tekst w srodkowym buttonie nie jest idealnie na srodku*/
 }
 
 #buttonMiddle a {
@@ -299,8 +300,8 @@ h2:after {
  .price {
      margin-top: 35px;
      margin-bottom: 35px;
-     height: 123px;
-     width: 123px;
+     height: 127px;
+     width: 127px;
      border: solid 2px #D5D4DA;
      background-color: white;
      border-radius: 50%;
@@ -310,13 +311,24 @@ h2:after {
 
 div.price p:first-child {
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 800;
     color: #CBCBCB;
-
+    position: absolute;
+    bottom: 55px;
+    right: 40px;
 }
+sup:nth-of-type(1) {
+    position: absolute;
+    bottom: 27px;
+}
+
 div.price p:last-child {
-    font-size: 12px;
+    font-size: 14px;
     color: #CBCBCB;
+    font-weight: 700;
+    position: absolute;
+    top: 70px;
+    left: 25px;
 }
 div.priceBox div:nth-of-type(2) {
     height: 45px;
@@ -388,10 +400,17 @@ div.priceStandard p:first-child {
     font-size: 35px;
     font-weight: 700;
     color: #26BAA0;
+    position: absolute;
+    top: 21px;
+    left: 35px;
 }
 div.priceStandard p:last-child {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
     color: #26BAA0;
+    position: absolute;
+    left: 25px;
+    bottom: 35px;
 }
 
 .priceStandard {
@@ -436,9 +455,14 @@ div.priceBox--Middle div:nth-of-type(5) {
     font-size: 20px;
 }
 
-sup {
-     font-size: 12px;
- }
+sup{
+    font-size: 14px;
+}
+.priceStandard sup {
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+}
 
 /*section4*/
 
@@ -522,27 +546,51 @@ textarea::placeholder {
     font-weight: 600;
     margin-left: 65px;
 }
-.checkbox{
-    margin-left: 65px;
-    font-size: 19px;
-    color: #C3C3C3;
-
-}
 
 /*checkbox*/
-input[type='checkbox'] {
+.checkbox {
+    position: relative;
+    margin-left: 60px;
+}
+.checkbox input {
+    display: block;
+    opacity: 0;
+    height: 48px;
+    position: absolute;
+    width: 48px;
+    cursor: pointer;
+}
+
+.checkbox label {
+    display: block;
+    padding-left: 65px;
+    position: relative;
+    font-size: 19px;
+    color: #cecece;
+    line-height: 120%;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.checkbox label::before, .checkbox label::after {
+    border: 1px solid #27c7ab;
+    content: "";
+    display: block;
+    left: 0;
+    height: 48px;
+    position: absolute;
+    width: 48px;
+    top: 0;
+}
+.checkbox label::after {
+    background: url("images/form_ok.jpg") no-repeat center;
+    border: 1px solid #27c7ab;
     display: none;
 }
 
-input[type='checkbox']+label {
-    width: 48px;
-    height: 48px;
-    background: url('images/form_ok.jpg') no-repeat;
-    padding: 0;
-    display: inline-block;
-    border: 1px solid rgba(38, 186, 160, 0.5);
+.checkbox input:checked + label::after {
+    display: block;
 }
-
 
 /*footer*/
 
