@@ -1,2 +1,2 @@
 # SitOnChair
-My first project
+My first Website
