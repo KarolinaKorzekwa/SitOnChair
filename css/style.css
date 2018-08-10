@@ -118,6 +118,27 @@ body {
   display: inline-block;
   margin: 5px 0 5px 0;
 }
+.slider{
+  width: 470px;
+  height: 337px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*li img {*/
+  /*align-self: center;*/
+/*}*/
 
 .summary_panel {
   background-color: white;

@@ -107,26 +107,37 @@ a {
 
 /*slider*/
 .slider{
-    display: flex;
-    height: 100%;
+    width: 470px;
+    height: 337px;
 
 }
 .slider ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
+    width: 100%;
 }
 
 .slider li{
-    display: none;
+    /*display: none;*/
+    display: flex;
+    justify-content: center;
 }
 
-.slider .visible{
+.slider{
     display: flex;
-    align-self: center;
+    /*align-self: center;*/
+    align-items: center;
 }
 .blackChair {
     width: 470px;
 }
-
+.redChair{
+    /*height: 337px;*/
+    width:470px;
+    object-fit: contain;
+}
 /*koniec slider*/
 
 h1 span {

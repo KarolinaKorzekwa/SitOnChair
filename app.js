@@ -49,26 +49,35 @@ console.log(listImg);
 var pctrNumber=0;
 console.log(pctrNumber);
 
+listImg.forEach(function (element) {
+    element.style.display='none';
+});
 // dodaję klasę visible
-listImg[pctrNumber].classList.add('visible');
+listImg[pctrNumber].style.display='flex';
 
-buttonPrev.addEventListener("click", function () {
-    listImg[pctrNumber].classList.remove('visible');
+buttonPrev.addEventListener("click", function (event) {
+    event.preventDefault();
+    listImg[pctrNumber].style.display='none';
     pctrNumber--;
+
+
+    //  listImg[pctrNumber].style.display = "flex";
 
     if ( pctrNumber < 0){
         pctrNumber=listImg.length-1;
     }
-    listImg[pctrNumber].classList.add('visible');
+    listImg[pctrNumber].style.display = "flex";
 });
 
-buttonNext.addEventListener("click", function () {
-    listImg[pctrNumber].classList.remove('visible');
+buttonNext.addEventListener("click", function (event) {
+    event.preventDefault();
+    listImg[pctrNumber].style.display='none';
+    // listImg[pctrNumber].style.display = "flex";
     pctrNumber++;
 
     if ( pctrNumber >= listImg.length) {
         pctrNumber=0;
     }
-    listImg[pctrNumber].classList.add('visible');
+    listImg[pctrNumber].style.display = "flex";
 
 });
