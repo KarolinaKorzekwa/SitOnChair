@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/4_Warsztaty/app.js" description="pctrNumber=0;" line="69" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c2ae3160-e189-4f91-ac22-5f458068e6e9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/4_Warsztaty/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Warsztaty/SitOnChair.html" beforeDir="false" afterPath="$PROJECT_DIR$/4_Warsztaty/SitOnChair.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_Warsztaty/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/4_Warsztaty/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,16 +33,20 @@
     </window>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72866523">
+    <splitter split-orientation="horizontal" split-proportion="0.74230766">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.44488978">
+        <splitter split-orientation="horizontal" split-proportion="0.68786126">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="SitOnChair.html" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/4_Warsztaty/SitOnChair.html">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="221">
-                      <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+                    <state relative-caret-position="357">
+                      <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+                      <folding>
+                        <element signature="e#1023#1027#1" expanded="true" />
+                        <element signature="e#1966#1970#1" expanded="true" />
+                      </folding>
                     </state>
                   </provider>
                 </entry>
@@ -63,7 +67,7 @@
               <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/4_Warsztaty/app.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="694">
+                    <state relative-caret-position="541">
                       <caret line="73" column="3" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
                     </state>
                   </provider>
@@ -104,9 +108,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/4_Warsztaty/Dodatkowe-kalkulator/style.css" />
+        <option value="$PROJECT_DIR$/4_Warsztaty/style.css" />
         <option value="$PROJECT_DIR$/4_Warsztaty/app.js" />
         <option value="$PROJECT_DIR$/4_Warsztaty/SitOnChair.html" />
-        <option value="$PROJECT_DIR$/4_Warsztaty/style.css" />
       </list>
     </option>
   </component>
@@ -120,8 +124,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="1066" />
+    <option name="width" value="863" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -187,18 +191,18 @@
       <workItem from="1531828607132" duration="746000" />
       <workItem from="1531934976703" duration="700000" />
       <workItem from="1532079887948" duration="163000" />
-      <workItem from="1533119601195" duration="54030000" />
+      <workItem from="1533119601195" duration="56390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128716000" />
+    <option name="totallyTimeSpent" value="131076000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="853" y="0" width="690" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19086021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06584992" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -242,11 +246,27 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/4_Warsztaty/app.js</url>
+          <line>69</line>
+          <properties lambdaOrdinal="-1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/4_Warsztaty/SitOnChair.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="132" column="10" selection-start-line="132" selection-start-column="10" selection-end-line="132" selection-end-column="10" />
+          <folding>
+            <element signature="e#1023#1027#1" expanded="true" />
+            <element signature="e#1966#1970#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -371,6 +391,13 @@
     <entry file="file://$PROJECT_DIR$/4_Warsztaty/images/vimeo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/4_Warsztaty/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="123" column="23" lean-forward="true" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/4_Warsztaty/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
@@ -380,15 +407,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4_Warsztaty/SitOnChair.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_Warsztaty/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="123" column="23" lean-forward="true" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+        <state relative-caret-position="357">
+          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding>
+            <element signature="e#1023#1027#1" expanded="true" />
+            <element signature="e#1966#1970#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
